@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Circular';
+  src: url('/font/circular-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular-bold';
+  src: url('/font/circular-medium.ttf') format('truetype');
+  font-weight: 800;
+  font-style: bold;
+}
+ .font-circular1{
+  font-family: 'Circular-bold', sans-serif;
+}
+.font-circular{
+  font-family: 'Circular', sans-serif;
+}
+
+body{
+    background-color: #FAF7F2;
+}
